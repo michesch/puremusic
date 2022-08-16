@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Pure Music Instrumentos Musicais</title>
+  </head>
+  <body>
+     <!-- Menu -->
+     <nav class="navbar navbar-expand-lg py-3 navbar-light">
+      <div class="container">
+      <a class="navbar-brand" href="./index.html"><img src="./pure_music_2.svg" width="33" height="33" alt="Pure Music"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html" id="menu">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./empresa.html" id="menu">A Pure Music</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="./index.html#produtos" id="menudrop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #d2b770;">
+              Categorias
+            </a>
+            <div class="dropdown-menu" aria-labelledby="menudrop">
+              <a class="dropdown-item" href="./index.html#guitarras">Guitarras</a>
+                <a class="dropdown-item" href="./index.html#baterias">Baterias</a>
+                <a class="dropdown-item" href="./index.html#ukeleles">Ukeleles</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#depoimentos" id="menu">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html#contato" id="menu">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.musicacenter.com/afinadoronline/" target="_blank" id="menu">Afinador Online</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+     <!-- Carrossel -->
+    <div id="myCarousel" class="carousel slide justify-content-center align-items-center" data-ride="carousel">
+    
+      <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="first-slide" src="./imgs/lespaul.jpg" alt="Les Paul">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Guitarras LesPaul</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-success" href="#guitarras" role="button">Conhecer</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="second-slide" src="./imgs/rockinrio.jpg" width="fit" alt="Rock in Rio">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Você no Rock In Rio</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <p><a class="btn btn-lg btn-success" href="https://rockinrio.com/rio/pt-br/home/" target="_blank" role="button">Participe</a></p>
+                    </div>
+                </div>
+            </div>
+                  
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Voltar</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Avançar</span>
+         </a>
+      </div>
+    </div>
+
+     <!-- Novidades-->
+    
+    <div class="container">
+        
+      <div class="row" style="margin-top: 50px; margin-bottom:30px ">
+        <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+          <hr class="solid">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-8">
+          <h2 style="text-align: center;">Novidades do universo musical</h2>
+        </div>
+        <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+          <hr class="solid">
+        </div>
+      </div>
+
+      <div class="row d-flex">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card bg-dark text-white">
+            <a href="#guitarras">
+              <img class="card-img" src="./imgs/guitarra-coverb.jpg" alt="Imagem do card">
+                <div class="card-img-overlay">
+                  <button class="btn btn-warning mb-4 mt-2">Guitarras</button>
+                  <h5 class="card-title">Memphis Tagima MG30</h5>
+            </a>
+            <p class="card-text">A guitarra queridinha dos iniciantes</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="row mb-3">
+          <div class="card bg-dark text-white">
+            <a href="#baterias">
+              <img class="card-img" src="./imgs/drums-pearl.jpg" alt="Imagem do card">
+              <div class="card-img-overlay">
+                <button class="btn btn-warning mb-4 mt-2">Baterias</button>
+                <h5 class="card-title">Pearl Exx Series</h5>
+            </a>   
+            <p class="card-text">Lançamento do mês</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="card bg-dark text-white">
+          <a href="#ukeleles">
+            <img class="card-img" src="./imgs/ukelele.jpg" alt="Imagem do card">
+            <div class="card-img-overlay">
+              <button class="btn btn-warning mb-4 mt-2">Ukelele</button>
+              <h5 class="card-title">Ukeleles</h5>
+          </a>
+          <p class="card-text">A febre do momento</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+        
+      <!-- Produtos -->
+    
+    <div class="row" style="margin-top: 50px; margin-bottom:30px " id="depoimentos">
+      <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+        <hr class="solid">
+      </div>
+      <div class="col-lg-6 col-md-8 col-sm-8" id="produtos">
+        <h2 style="text-align: center;">Produtos</h2>
+      </div>
+      <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+        <hr class="solid">
+      </div>
+    </div> 
+
+      <!-- Produtos-Guitarras -->
+      
+    <div class="row">
+      <button class="btn mb-4 mt-4 ml-4" style="background-color: #d2b770 ; font-size: 21px;" id="guitarras">Guitarras</button>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="card mb-4 mt-4" style="border-radius: 15px;">
+          <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"data-mdb-ripple-color="light">                      
+            <a href="guitarra1.html">
+              <img src="./imgs/guitarra_strinberg.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+              <div class="mask"></div>
+            </a>
+          </div>
+          <div class="card-body pb-0">
+            <div class="d-flex justify-content-between">
+              <div>
+                <p><a href="guitarra1.html" class="text-dark">Guitarra Strinberg Cherry Burst Les Paul</a></p>
+                <p class="small text-muted">Guitarras</p>
+              </div>
+            </div>
+          </div>
+          <hr class="my-0" />
+          <div class="card-body pb-0">
+            <div class="d-flex justify-content-between">
+              <p><a href="#!" class="text-dark">R$ 1.257,00</a></p>
+            </div>
+          </div>
+          <hr class="my-0" />
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+              <a href="guitarra1.html">
+                <button type="button" class="btn btn-primary">Mais detalhes</button>
+              </a>
+              <a href="https://www.amazon.com.br/Guitarra-Strinberg-Profissional-Cherry-Burst/dp/B09FK59ZGJ/ref=asc_df_B09FK59ZGJ/">
+                <button type="button" class="btn btn-success">Comprar agora</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="card mb-4 mt-4" style="border-radius: 15px;">
+          <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+            <a href="guitarra2.html">
+              <img src="./imgs/memphis-tagima.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+              <div class="mask"></div>
+            </a>
+          </div>
+                        
+          <div class="card-body pb-0">
+            <div class="d-flex justify-content-between">
+              <div>
+                <p><a href="guitarra2.html" class="text-dark">Guitarra Memphis Tagima MG30 Vermelha</a></p>
+                <p class="small text-muted">Guitarras</p>
+              </div>
+            </div>
+          </div>
+                        
+          <hr class="my-0" />
+                        
+          <div class="card-body pb-0">
+            <div class="d-flex justify-content-between">
+              <p><a href="#!" class="text-dark">R$ 999,00</a></p>
+            </div>
+          </div>
+                        
+          <hr class="my-0" />
+                        
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+              <a href="guitarra2.html">
+                <button type="button" class="btn btn-primary">Mais detalhes</button>
+              </a>
+              <a href="https://www.amazon.com.br/Guitarra-Stratocaster-Memphis-Tagima-Vermelha/dp/B08KSJTDKR/">
+                <button type="button" class="btn btn-success">Comprar agora</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="card mb-4 mt-4" style="border-radius: 15px;">
+          <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+            <a href="guitarra3.html">
+              <img src="./imgs/fender.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+              <div class="mask"></div>
+            </a>
+          </div>
+          <div class="card-body pb-0">
+            <div class="d-flex justify-content-between">
+              <div>
+                <p><a href="guitarra3.html" class="text-dark">Fender Player Lead II Preta</a></p>
+                <p class="small text-muted">Guitarras</p>
+              </div>
+            </div>
+          </div>
+          <hr class="my-0" />
+          <div class="card-body pb-0">
+            <div class="d-flex justify-content-between">
+              <p><a href="#!" class="text-dark">R$ 6.902,00</a></p>
+            </div>
+          </div>
+          <hr class="my-0" />
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+              <a href="guitarra3.html">
+                <button type="button" class="btn btn-primary">Mais detalhes</button>
+              </a>
+              <a href="https://www.amazon.com.br/Fender-Player-Lead-II-Fingerboard/dp/B083F5N71Q/ref=sr_1_14">
+                <button type="button" class="btn btn-success">Comprar agora</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+      <!-- Produtos-Baterias -->
+
+      <div class="row">
+        <button class="btn mb-4 mt-4 ml-4" style="background-color: #d2b770 ; font-size: 21px;" id="baterias">Baterias</button>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card mb-4 mt-4" style="border-radius: 15px;">
+            <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+              <a href="bateria1.html">
+                <img src="./imgs/bateria-pearl.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+                <div class="mask"></div>
+              </a>
+            </div>
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><a href="bateria1.html" class="text-dark">Bateria Pearl Decade Maple</a></p>
+                  <p class="small text-muted">Baterias</p>
+                </div>
+              </div>
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <p><a href="#!" class="text-dark">R$ 7.305,50</a></p>
+              </div>
+            </div>
+
+            <hr class="my-0" />
+
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                <a href="bateria1.html">
+                  <button type="button" class="btn btn-primary">Mais detalhes</button>
+                </a>
+                <a href="https://www.drumshop.com.br/produto/8350-bateria-pearl-decade-maple-dmp905pc227-shell-pack">
+                  <button type="button" class="btn btn-success">Comprar agora</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card mb-4 mt-4" style="border-radius: 15px;">
+            <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"data-mdb-ripple-color="light">
+              <a href="bateria2.html">
+                <img src="./imgs/bateria_eletronica.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+                <div class="mask"></div>
+              </a>
+            </div>
+                        
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><a href="bateria2.html" class="text-dark">Bateria Eletrônica Alesis 300</a></p>
+                  <p class="small text-muted">Baterias</p>
+                </div>
+              </div>
+            </div>
+                        
+            <hr class="my-0" />
+                        
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <p><a href="#!" class="text-dark">R$ 5.490,05</a></p>
+              </div>
+            </div>
+                        
+            <hr class="my-0" />
+                        
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                <a href="bateria2.html">
+                  <button type="button" class="btn btn-primary">Mais detalhes</button>
+                </a>
+                <a href="https://www.drumshop.com.br/produto/8523-bateria-eletronica-alesis-300-sons-kick-pedal">
+                  <button type="button" class="btn btn-success">Comprar agora</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card mb-4 mt-4" style="border-radius: 15px;">
+            <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"data-mdb-ripple-color="light">
+              <a href="bateria3.html">
+                <img src="./imgs/bateria-done.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+                <div class="mask"></div>
+              </a>
+            </div>
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><a href="bateria3.html" class="text-dark">Bateria D One Rocket Black</a></p>
+                  <p class="small text-muted">Baterias</p>
+                </div>
+              </div>
+            </div>
+            <hr class="my-0" />
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <p><a href="#!" class="text-dark">R$ 6.902,00</a></p>
+              </div>
+            </div>
+            <hr class="my-0" />
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                <a href="bateria3.html">
+                  <button type="button" class="btn btn-primary">Mais detalhes</button>
+                </a>
+                <a href="https://www.drumshop.com.br/produto/8951-bateria-d-one-rocket-dr22bks-black-satin">
+                  <button type="button" class="btn btn-success">Comprar agora</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Produtos-Ukeleles -->
+
+        <div class="row">
+            <button class="btn mb-4 mt-4 ml-4" style="background-color: #d2b770 ; font-size: 21px;" id="ukeleles">Ukeleles</button>
+        </div>
+
+        <div class="row">        
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card mb-4 mt-4" style="border-radius: 15px;">
+              <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+                <a href="ukelele1.html">
+                  <img src="./imgs/ukelele1.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-body pb-0">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p><a href="ukelele1.html" class="text-dark">Ukulele Concert 23 em Sapele</a></p>
+                    <p class="small text-muted">Ukeleles</p>
+                  </div>
+                </div>
+              </div>
+              <hr class="my-0" />
+              <div class="card-body pb-0">
+                <div class="d-flex justify-content-between">
+                  <p><a href="#!" class="text-dark">R$ 219,90</a></p>
+                </div>
+              </div>
+              <hr class="my-0" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                  <a href="ukelele1.html">
+                    <button type="button" class="btn btn-primary">Mais detalhes</button>
+                  </a>
+                  <a href="https://www.amazon.com.br/Ukulele-Winner-Concert-Sapele-Natural/dp/B07Y253QB4/ref=sr_1_5">
+                    <button type="button" class="btn btn-success">Comprar agora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card mb-4 mt-4" style="border-radius: 15px;">
+              <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"data-mdb-ripple-color="light">
+                <a href="ukelele2.html">
+                  <img src="./imgs/ukelele2.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-body pb-0">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p><a href="ukelele2.html" class="text-dark">Ukulele Acústico Soprano Cordas Black</a></p>
+                    <p class="small text-muted">Ukeleles</p>
+                  </div>
+                </div>
+              </div>
+              <hr class="my-0" />
+              <div class="card-body pb-0">
+                <div class="d-flex justify-content-between">
+                  <p><a href="#!" class="text-dark">R$ 188,00</a></p>
+                </div>
+              </div>
+              <hr class="my-0" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                  <a href="ukelele2.html">
+                    <button type="button" class="btn btn-primary">Mais detalhes</button>
+                  </a>
+                  <a href="https://www.amazon.com.br/Ukulele-Soprano-Acústico-Tagima-Memphis/dp/B09237T3J9/ref=sr_1_12">
+                    <button type="button" class="btn btn-success">Comprar agora</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card mb-4 mt-4" style="border-radius: 15px;">
+              <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light" data-mdb-ripple-color="light">
+                <a href="ukelele3.html">
+                  <img src="./imgs/ukelele3.jpg" style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"/>
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-body pb-0">
+                <div class="d-flex justify-content-between">
+                  <div>
+                  <p><a href="ukelele3.html" class="text-dark"> Ukulele Kala 4 cordas Mogno </a></p>
+                  <p class="small text-muted">Ukeleles</p>
+                </div>
+              </div>
+            </div>
+            <hr class="my-0" />
+            <div class="card-body pb-0">
+              <div class="d-flex justify-content-between">
+                <p><a href="#!" class="text-dark">R$ 1.199,00</a></p>
+              </div>
+            </div>
+            <hr class="my-0" />
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                  <a href="ukelele3.html">
+                    <button type="button" class="btn btn-primary">Mais detalhes</button>
+                  </a>
+                    <a href="https://www.amazon.com.br/Ukulele-cordas-direito-branco-LTP-MH/dp/B07LBK35Q1/ref=sr_1_31">
+                      <button type="button" class="btn btn-success">Comprar agora</button>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        
+<!-- Depoimentos -->
+
+      <div class="row" style="margin-top: 50px; margin-bottom:30px " id="depoimentos">
+        <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+          <hr class="solid">
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-8">
+          <h2 style="text-align: center;">Depoimentos</h2>
+        </div>
+        <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+          <hr class="solid">
+        </div>
+      </div> 
+
+      <div class="row">
+
+        <div id="carouselDepoimento" class="carousel slide text-center" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="./imgs/maria.jpg" alt="avatar"
+                style="width: 150px;" />
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="mb-3">Maria Kate</h5>
+                  <h4>Musicista</h4>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                    fugit consequatur laudantium velit magnam error.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="./imgs/jon.jpg" alt="avatar"
+                style="width: 150px;" />
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="mb-3">John Daniels</h5>
+                  <h4>Guitarrista</h4>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                    fugit consequatur laudantium velit magnam error.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <img class="rounded-circle shadow-1-strong mb-4"
+                src="./imgs/anna.jpg" alt="avatar" style="width: 150px;" />
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                  <h5 class="mb-3">Anna Deynah</h5>
+                  <h4>Cantora</h4>
+                  <p class="text-muted">
+                    <i class="fas fa-quote-left pe-2"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                    nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                    fugit consequatur laudantium velit magnam error.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+          <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="./imgs/levi.jpg" alt="avatar"
+              style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">Levi Strauss</h5>
+                <h4>Baterista</h4>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                  fugit consequatur laudantium velit magnam error.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="rounded-circle shadow-1-strong mb-4"
+              src="./imgs/nick.jpg" alt="avatar"
+              style="width: 150px;" />
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <h5 class="mb-3">Nick Stamos</h5>
+                <h4>Violinista</h4>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                  nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                  fugit consequatur laudantium velit magnam error.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <a class="carousel-control-prev" href="#carouselDepoimento" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselDepoimento" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+          <!-- Botão para acionar modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" style="margin: 40px;" data-target="#ModalDepoimento">Deixe seu depoimento</button>
+          <!-- Modal -->
+          <div class="modal fade" id="ModalDepoimento" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="TituloModalCentralizado">Deixe sua opinião sobre a Pure Music</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="recipient-name" class="col-form-label">Seu Nome</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label">Mensagem:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+        <div class="row" style="margin-top: 50px; margin-bottom:30px " id="contato">
+          <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+              <hr class="solid">
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-8">
+              <h2 style="text-align: center;">Contato</h2>
+          </div>
+          <div class="col-lg-3 col-md-2 col-sm-2 d-flex align-items-center">
+              <hr class="solid">
+          </div>
+        </div> 
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <form>
+              <div class="form-group">
+                <label style="color: white;" for="nomeInput">Nome Completo</label>
+                <input type="email" class="form-control" id="nomeInput" placeholder="Nome">
+              </div>
+              <div class="form-group">
+                <label style="color: white;" for="emailInput">Endereço de email</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="nome@exemplo.com">
+              </div>
+              <div class="form-group">
+                <label style="color: white;" for="mensagemInput">Mensagem</label>
+                <textarea class="form-control" id="mensagemInput" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <img src="./pure_music_completa.svg" style="padding-top: 20px; padding-bottom: 20px; width: 320px;" class="img-fluid"/>
+            <h4>Pure Music Instrumentos Musicais LTDA</h4>
+            <p style="color: white;"> CNPJ 12.123.432/0001-21<br> Servidão Anjo da Guarda, 295-D - Efapi, Chapecó - SC<br>(49) 3322.1234</p>
+            <div class="row pb-4">
+              <div class="col">
+                <a href="https://www.instagram.com/">
+                  <img src="./imgs/insta.png" style="padding-top: 20px; padding-bottom: 20px; width: 40px;" class="img-fluid"/>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://www.facebook.com/">
+                  <img src="./imgs/face.png" style="padding-top: 20px; padding-bottom: 20px; width: 40px;" class="img-fluid"/>
+                </a>
+              </div>
+              <div class="col">
+                <a href="https://www.youtube.com/">
+                  <img src="./imgs/youtube.png" style="padding-top: 20px; padding-bottom: 20px; width: 40px;" class="img-fluid"/>
+                </a>
+              </div>
+
+              <div class="col">
+                <a href="https://web.whatsapp.com">
+                  <img src="./imgs/WhatsApp.png" style="padding-top: 20px; padding-bottom: 20px; width: 40px;" class="img-fluid"/>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+    
+      
+      </div>
+      
+    </div>   
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

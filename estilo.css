@@ -1,0 +1,40 @@
+body{
+    background-color: #31344c;
+    margin: 0%;
+    padding: 0%;
+}
+nav {
+    background-color: #171a2b;
+}
+
+h2 {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #d2b770;
+}
+
+hr.solid {
+    align-self: center;
+    vertical-align: middle;
+    border-top: 2px solid #d2b770;
+    width: 100%;
+}
+
+#menu {
+    color: #d2b770;
+}
+
+.img {
+    width: 100%;
+}
+
+h5 {
+    color: #d2b770;
+}
+
+h4 {
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: 400;
+}
